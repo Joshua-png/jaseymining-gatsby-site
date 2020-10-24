@@ -1,15 +1,17 @@
 import React from "react";
 import logo1 from '../../images/logo_1.jpg'
-const ScrollspyNav = typeof window !== `undefined` ? require("react-scrollspy-nav") : null;
-// import ScrollspyNav from "react-scrollspy-nav";
+import { makeStyles } from "@material-ui/styles";
 import {
     Grid,
     Toolbar,
     Button,
 } from "@material-ui/core";
 
+const ScrollspyNav = typeof window !== `undefined` ? require("react-scrollspy-nav") : null;
+// import ScrollspyNav from "react-scrollspy-nav";
+
 // import {useRouteMatch} from "react-router-dom";
-import {makeStyles} from "@material-ui/styles";
+
 
 const DesktopHeader = () => {
     const styles = {
@@ -77,6 +79,7 @@ const DesktopHeader = () => {
     // }, [path])
 
     return (
+        <div>
         <ScrollspyNav
                     scrollTargetIds={["section_1"]}
                     offset={-20}
@@ -168,7 +171,8 @@ const DesktopHeader = () => {
                 </Grid>
             </Grid>
         </Toolbar>
-    </ScrollspyNav>   
+            </ScrollspyNav>   
+        </div>
     )
 }
 

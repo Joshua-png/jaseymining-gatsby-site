@@ -1,7 +1,5 @@
 import React from "react";
 import logo1 from '../../images/logo_1.jpg';
-// import ScrollspyNav from "react-scrollspy-nav";
-const ScrollspyNav = typeof window !== `undefined` ? require("react-scrollspy-nav") : null;
 import {
     Container,
     Button,
@@ -17,6 +15,10 @@ import {
     Info,
     Photo
 } from "@material-ui/icons";
+
+// import ScrollspyNav from "react-scrollspy-nav";
+const ScrollspyNav = typeof window !== `undefined` ? require("react-scrollspy-nav") : null;
+
 
 const DrawerContent = ({handleClose}) => {
     const styles ={
