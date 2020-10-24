@@ -1,5 +1,6 @@
 import React from "react";
-import ScrollspyNav from "react-scrollspy-nav";
+const ScrollspyNav = typeof window !== `undefined` ? require("react-scrollspy-nav") : null;
+// import ScrollspyNav from "react-scrollspy-nav";
 import {
     Grid,
     Toolbar,

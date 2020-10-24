@@ -1,6 +1,7 @@
 import React from "react";
 import logo1 from '../../images/logo1.jpg';
-import ScrollspyNav from "react-scrollspy-nav";
+// import ScrollspyNav from "react-scrollspy-nav";
+const ScrollspyNav = typeof window !== `undefined` ? require("react-scrollspy-nav") : null;
 import {
     Container,
     Button,
