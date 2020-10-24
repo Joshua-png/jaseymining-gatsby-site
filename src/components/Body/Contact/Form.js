@@ -1,5 +1,5 @@
 import React from 'react';
-import logo1 from '../../../images/logo1.jpg';
+import logo1 from '../../../images/logo_1.jpg';
 
 export default function Form(){
     return(
