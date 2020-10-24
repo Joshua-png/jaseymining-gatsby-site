@@ -1,4 +1,5 @@
 import React from "react";
+import logo1 from '../../images/logo1.jpg'
 const ScrollspyNav = typeof window !== `undefined` ? require("react-scrollspy-nav") : null;
 // import ScrollspyNav from "react-scrollspy-nav";
 import {
@@ -93,7 +94,7 @@ const DesktopHeader = () => {
                                 width={50}
                                 height={50}
                                 alt=""
-                                src={`images/logo1.jpg`}
+                                src={logo1}
                             />
                         </a>
                 </Grid>
