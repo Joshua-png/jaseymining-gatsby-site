@@ -1,5 +1,5 @@
 import React from "react";
-import logo1 from '../../images/logo1.jpg';
+import logo1 from '../../images/logo1.JPG';
 // import ScrollspyNav from "react-scrollspy-nav";
 const ScrollspyNav = typeof window !== `undefined` ? require("react-scrollspy-nav") : null;
 import {
